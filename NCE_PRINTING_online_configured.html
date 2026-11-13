@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102b59">
+<title>NCE PRINTING | Printing Services & Order Management</title>
+<meta name="description" content="NCE PRINTING — reliable document, photo, and customized printing services. Place and track your order online.">
+<style>
+:root{--navy:#102b59;--blue:#2059b8;--royal:#2f6fe4;--ink:#17243a;--muted:#68758a;--line:#e3e9f2;--soft:#f4f7fc;--white:#fff;--green:#16845b;--red:#c43d4b;--shadow:0 14px 38px rgba(16,43,89,.09);--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f9fd;color:var(--ink);font:15px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.topbar{background:var(--navy);color:#dce8ff;padding:8px 5vw;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.navbar{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);padding:13px 5vw;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--navy);font-weight:900;letter-spacing:.4px;font-size:19px}.brandmark{height:42px;width:42px;border-radius:13px;background:linear-gradient(145deg,var(--royal),var(--navy));display:grid;place-items:center;color:white;font-weight:900;box-shadow:0 6px 14px #2059b833}.navlinks{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.navlinks button,.navlinks a{border:0;background:transparent;color:#46546a;padding:10px 13px;border-radius:10px;text-decoration:none;font-weight:650}.navlinks button:hover,.navlinks a:hover{background:#edf3ff;color:var(--blue)}.navlinks .primary{background:var(--blue);color:#fff}.menu{display:none;border:1px solid var(--line);background:white;border-radius:10px;padding:9px}.container{width:min(1160px,90vw);margin:auto}.hero{background:linear-gradient(115deg,#102b59 0%,#17458f 60%,#286ad1 100%);color:white;padding:64px 0 58px;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid #ffffff22;border-radius:50%;right:-80px;top:-180px;box-shadow:0 0 0 45px #ffffff08,0 0 0 90px #ffffff06}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:center;position:relative;z-index:1}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#bcd4ff;font-weight:800}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.07;margin:13px 0 18px;letter-spacing:-1.7px}.hero p{color:#dce8ff;max-width:570px;font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{border:0;border-radius:11px;padding:12px 18px;font-weight:750;transition:.2s;display:inline-flex;align-items:center;justify-content:center;gap:8px}.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}.btn-primary{background:var(--royal);color:white;box-shadow:0 7px 18px #2059b833}.btn-white{background:white;color:var(--navy)}.btn-outline{background:white;border:1px solid var(--line);color:var(--ink)}.btn-danger{background:#fff0f1;color:var(--red)}.btn-small{padding:8px 11px;font-size:13px}.hero-card{background:#fff;color:var(--ink);border-radius:22px;padding:23px;box-shadow:0 24px 50px #071b3d55;max-width:380px;justify-self:end;width:100%;transform:rotate(1deg)}.paper-preview{background:linear-gradient(135deg,#f1f5fc,#fff);border:1px solid var(--line);border-radius:14px;padding:20px}.paper-preview .fake-logo{height:8px;width:70px;background:var(--royal);border-radius:5px;margin-bottom:16px}.fake-line{height:6px;background:#dce4f0;border-radius:5px;margin:9px 0;width:90%}.fake-line.short{width:55%}.fake-box{height:80px;background:#e6eefb;border-radius:9px;margin:16px 0}.hero-card strong{display:block;margin-top:16px}.hero-card small{color:var(--muted)}.trust-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:24px;color:#dce8ff;font-size:13px}.section{padding:62px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:25px}.section h2{font-size:30px;line-height:1.2;color:var(--navy);margin:0 0 8px;letter-spacing:-.6px}.section-head p{margin:0;color:var(--muted)}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card,.panel,.stat,.order-card{background:white;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 5px 20px #102b5908}.service-card{padding:22px;transition:.2s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-icon{width:48px;height:48px;border-radius:14px;background:#edf3ff;color:var(--blue);display:grid;place-items:center;font-size:23px;margin-bottom:16px}.service-card h3{margin:0 0 6px;color:var(--navy)}.service-card p{margin:0;color:var(--muted);font-size:14px}.order-section{background:#eef3fb}.panel{padding:25px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:13px;font-weight:750;color:#34435a}.field input,.field select,.field textarea,.search-input{width:100%;border:1px solid #d8e0ec;border-radius:10px;padding:11px 12px;background:white;color:var(--ink);outline:none;min-height:44px}.field textarea{min-height:94px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus,.search-input:focus{border-color:var(--royal);box-shadow:0 0 0 3px #2f6fe41c}.hint{font-size:12px;color:var(--muted)}.uploadbox{border:1.5px dashed #9eb6df;border-radius:13px;padding:22px;text-align:center;background:#f8faff}.uploadbox input{max-width:100%;border:0;padding:8px}.file-list{display:grid;gap:8px;margin-top:10px}.file-item{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#f5f8fd;padding:9px 11px;border-radius:9px;font-size:13px}.file-info{min-width:0;display:flex;align-items:center;gap:9px}.file-info span:last-child{overflow-wrap:anywhere}.thumb{width:38px;height:38px;object-fit:cover;border-radius:6px;background:#e5ebf5}.summary{background:#f5f8fe;border:1px solid #dfe8f7;border-radius:13px;padding:17px;margin-top:20px}.summary h3{margin:0 0 12px;color:var(--navy)}.summary-row{display:flex;justify-content:space-between;gap:12px;padding:5px 0;font-size:13px}.summary-row strong{text-align:right}.summary-total{border-top:1px solid #dce5f3;margin-top:8px;padding-top:12px;font-weight:800}.notice{padding:12px 14px;border-radius:10px;background:#fff7e8;color:#77520b;font-size:13px;margin:14px 0}.success{background:#eaf8f1;color:#116b48}.error{background:#fff0f1;color:#a52c3a}.hidden{display:none!important}.tracking-box{max-width:720px;margin:auto}.track-result{margin-top:18px}.timeline{display:grid;gap:0;margin:18px 0}.timeline-step{display:flex;gap:13px;position:relative;padding:0 0 18px}.timeline-step:not(:last-child):before{content:"";position:absolute;left:12px;top:26px;bottom:0;width:2px;background:#dce4f0}.dot{width:25px;height:25px;flex:none;border-radius:50%;background:#e8edf5;border:2px solid #cbd5e3;z-index:1}.timeline-step.done .dot{background:var(--royal);border-color:var(--royal);box-shadow:inset 0 0 0 5px white}.timeline-step.current .dot{background:#dce8ff;border:7px solid var(--royal)}.timeline-step b{display:block}.timeline-step small{color:var(--muted)}.footer{background:#0b2147;color:#d9e5fa;padding:38px 0}.footer-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer p{color:#aebfdd;margin:8px 0}.admin-shell{min-height:70vh;padding:34px 0 60px}.admin-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:20px}.admin-head h1{margin:0;color:var(--navy)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin:18px 0}.stat{padding:17px}.stat small{color:var(--muted);font-weight:650}.stat strong{display:block;font-size:27px;color:var(--navy);margin-top:5px}.admin-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.admin-tabs button{border:1px solid var(--line);background:white;border-radius:9px;padding:9px 13px;color:#44536a;font-weight:700}.admin-tabs button.active{background:var(--navy);color:white;border-color:var(--navy)}.table-wrap{overflow:auto}.orders-table{width:100%;border-collapse:collapse;min-width:760px}.orders-table th,.orders-table td{text-align:left;padding:12px;border-bottom:1px solid var(--line);font-size:13px}.orders-table th{color:#65738a;background:#f7f9fc}.status{display:inline-block;border-radius:30px;padding:4px 9px;font-size:11px;font-weight:800;background:#edf1f7;color:#4c5a70}.status.ready-for-pickup{background:#e8f7ef;color:#16724d}.status.processing{background:#eaf1ff;color:#2459b5}.status.cancelled{background:#fff0f1;color:#b33542}.status.completed{background:#e9f7f1;color:#16724d}.status.waiting-for-payment{background:#fff6e5;color:#94620a}.status.under-review{background:#f1edff;color:#6544a4}.empty{text-align:center;padding:40px 16px;color:var(--muted)}.login-wrap{max-width:440px;margin:50px auto}.login-wrap .panel{padding:28px}.login-wrap h2{margin:0 0 6px;color:var(--navy)}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.detail-block{background:#f7f9fd;border-radius:10px;padding:13px}.detail-block small{color:var(--muted);display:block}.detail-block b{overflow-wrap:anywhere}.modal-backdrop{position:fixed;inset:0;background:#07172dcc;z-index:30;display:grid;place-items:center;padding:18px}.modal{background:white;border-radius:18px;width:min(760px,100%);max-height:90vh;overflow:auto;padding:23px;box-shadow:0 20px 70px #0004}.modal-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.modal-head h2{margin:0;color:var(--navy)}.close{border:0;background:#edf2f8;border-radius:9px;padding:8px 11px}.file-link{color:var(--blue);text-decoration:none;font-weight:700}.footer-links{display:flex;gap:15px;flex-wrap:wrap}.footer-links button{border:0;background:none;color:#d9e5fa;text-decoration:underline}.toast{position:fixed;right:18px;bottom:18px;z-index:50;background:#102b59;color:white;padding:13px 17px;border-radius:12px;box-shadow:var(--shadow);max-width:min(380px,90vw)}.config-banner{background:#fff4dd;border:1px solid #f2d99e;color:#75520e;padding:12px 15px;border-radius:11px;font-size:13px;margin:16px 0}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero-card{justify-self:start;max-width:420px}.services{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.topbar{padding:8px 5vw}.navbar{padding:11px 5vw}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:66px;background:white;padding:12px 5vw 18px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);align-items:stretch}.navlinks.open{display:flex;flex-direction:column}.navlinks button,.navlinks a{text-align:left}.hero{padding:46px 0}.hero p{font-size:15px}.section{padding:45px 0}.section-head{display:block}.services{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.panel{padding:17px}.stats{grid-template-columns:repeat(2,1fr)}.stat strong{font-size:23px}.detail-grid{grid-template-columns:1fr}.admin-head{align-items:flex-start}.footer-grid{display:block}.hero-card{transform:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><span>Professional printing. Clear results. Reliable service.</span><span id="topContact">NCE PRINTING · Customer Service</span></div>
+<header class="navbar">
+<a class="brand" href="#" onclick="showPage('home');return false"><span class="brandmark">NCE</span><span>NCE PRINTING</span></a>
+<button class="menu" id="menuBtn" aria-label="Open navigation">☰</button>
+<nav class="navlinks" id="navlinks">
+<button onclick="showPage('home')">Home</button><button onclick="showPage('order')">Place an Order</button><button onclick="showPage('track')">Track Order</button><button onclick="showPage('admin')">Admin</button>
+</nav></header>
+<main>
+<section id="page-home">
+<div class="hero"><div class="container hero-grid"><div><div class="eyebrow">Print with confidence</div><h1>Your ideas.<br>Printed beautifully.</h1><p>From everyday documents to vibrant photos and customized print projects, NCE PRINTING makes ordering simple and convenient.</p><div class="hero-actions"><button class="btn btn-white" onclick="showPage('order')">Start an Order →</button><button class="btn" style="background:#ffffff18;color:white;border:1px solid #ffffff66" onclick="showPage('track')">Track My Order</button></div><div class="trust-row"><span>✓ Multiple file uploads</span><span>✓ Convenient order tracking</span><span>✓ Helpful service updates</span></div></div><div class="hero-card"><div class="paper-preview"><div class="fake-logo"></div><div style="font-size:19px;font-weight:900;color:#102b59">MAKE IT PRINT.</div><div class="fake-line"></div><div class="fake-line short"></div><div class="fake-box"></div><div class="fake-line"></div><div class="fake-line short"></div></div><strong>Print-ready, made easy.</strong><small>Upload your files and tell us what you need.</small></div></div></div>
+<section class="section"><div class="container"><div class="section-head"><div><h2>Printing services</h2><p>Everyday essentials and special print jobs, all in one place.</p></div></div><div class="services" id="serviceCards">
+<div class="service-card"><div class="service-icon">▤</div><h3>Document Printing</h3><p>School requirements, reports, forms, modules, and office documents.</p></div>
+<div class="service-card"><div class="service-icon">▧</div><h3>Photo Printing</h3><p>Bring your favorite moments to life with quality photo prints.</p></div>
+<div class="service-card"><div class="service-icon">▣</div><h3>Color & B/W Printing</h3><p>Sharp black-and-white text or vibrant full-color output.</p></div>
+<div class="service-card"><div class="service-icon">▤</div><h3>Binding & Lamination</h3><p>Finishing options to protect, organize, and present your work.</p></div>
+<div class="service-card"><div class="service-icon">✦</div><h3>Custom Print Projects</h3><p>Tell us your dimensions and requirements for a custom quotation.</p></div>
+<div class="service-card"><div class="service-icon">◫</div><h3>Business & School Prints</h3><p>Practical print support for students, professionals, and businesses.</p></div>
+</div></div></section>
+<div class="section order-section"><div class="container" style="text-align:center"><h2>Ready to get started?</h2><p style="color:var(--muted)">Send your files and printing instructions in a few easy steps.</p><button class="btn btn-primary" onclick="showPage('order')">Place Your Order</button></div></div>
+</section>
+<section id="page-order" class="section order-section hidden"><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--blue)">Customer portal</div><h2>Place a printing order</h2><p>Complete the details below. Our team will review your files and prepare a quotation.</p></div></div><div id="customerConfig" class="config-banner hidden"></div>
+<div class="panel"><form id="orderForm">
+<h3 style="margin-top:0;color:var(--navy)">1. Your details</h3><div class="form-grid">
+<div class="field"><label for="fullName">Full name *</label><input id="fullName" required maxlength="120" autocomplete="name" placeholder="Enter your full name"></div>
+<div class="field"><label for="mobile">Mobile number *</label><input id="mobile" required maxlength="25" autocomplete="tel" placeholder="09XX XXX XXXX"></div>
+<div class="field"><label for="email">Email address (optional)</label><input id="email" type="email" maxlength="180" autocomplete="email" placeholder="you@example.com"></div>
+<div class="field"><label for="service">Printing service *</label><select id="service" required><option value="">Choose a service</option><option>Document Printing</option><option>Photo Printing</option><option>Color & B/W Printing</option><option>Binding & Lamination</option><option>Custom Print Project</option><option>Other</option></select></div></div>
+<h3 style="color:var(--navy);margin:26px 0 12px">2. Upload your files</h3><div class="uploadbox"><div style="font-size:28px">⇧</div><b>Choose one or more files</b><p class="hint">PDF, DOC, DOCX, JPG, JPEG, PNG, XLS, XLSX, PPT, PPTX and common formats. Maximum 20 MB per file.</p><input id="files" type="file" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.webp,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.ods,.odp"></div><div id="fileList" class="file-list"></div>
+<h3 style="color:var(--navy);margin:26px 0 12px">3. Printing specifications</h3><div class="form-grid">
+<div class="field"><label for="paperSize">Paper size *</label><select id="paperSize"><option>A4</option><option>A3</option><option>Letter</option><option>Legal</option><option>Long</option><option>Short</option><option>Custom</option></select></div>
+<div class="field"><label for="printMode">Print mode *</label><select id="printMode"><option>Black and White</option><option>Colored</option></select></div>
+<div class="field"><label for="sides">Printing sides *</label><select id="sides"><option>Single-sided</option><option>Double-sided</option></select></div>
+<div class="field"><label for="paperType">Paper type *</label><select id="paperType"><option>Ordinary</option><option>Matte</option><option>Glossy</option><option>Photo Paper</option><option>Custom</option></select></div>
+<div class="field"><label for="copies">Number of copies *</label><input id="copies" type="number" min="1" max="10000" value="1" required></div>
+<div class="field"><label for="customDimensions">Custom dimensions (if applicable)</label><input id="customDimensions" maxlength="80" placeholder="e.g. 8.5 × 13 inches"></div>
+<div class="field"><label for="finishing">Finishing options</label><select id="finishing"><option>None</option><option>Binding</option><option>Lamination</option><option>Binding + Lamination</option><option>Other / To be discussed</option></select></div>
+<div class="field"><label for="pickupDate">Preferred pickup date *</label><input id="pickupDate" type="date" required></div>
+<div class="field"><label for="pickupTime">Preferred pickup time</label><input id="pickupTime" type="time"></div>
+<div class="field full"><label for="notes">Special instructions / notes</label><textarea id="notes" maxlength="2000" placeholder="Page range, color preferences, file-specific instructions, or other requests..."></textarea></div></div>
+<div class="summary"><h3>Order summary</h3><div class="summary-row"><span>Customer</span><strong id="sumName">Not entered</strong></div><div class="summary-row"><span>Service</span><strong id="sumService">Not selected</strong></div><div class="summary-row"><span>Files</span><strong id="sumFiles">0 files</strong></div><div class="summary-row"><span>Specifications</span><strong id="sumSpecs">A4 · Black and White · Single-sided</strong></div><div class="summary-row"><span>Copies</span><strong id="sumCopies">1</strong></div><div class="summary-row summary-total"><span>Estimated price</span><strong>For shop quotation</strong></div><div class="hint" style="margin-top:7px">Final pricing will be confirmed by NCE PRINTING after reviewing your files and specifications.</div></div>
+<div id="orderError" class="notice error hidden"></div><div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px"><button class="btn btn-primary" id="submitOrder" type="submit">Submit Order</button><button class="btn btn-outline" type="reset">Clear Form</button></div></form></div></div></section>
+<section id="page-track" class="section hidden"><div class="container tracking-box"><div class="section-head"><div><div class="eyebrow" style="color:var(--blue)">Order updates</div><h2>Track your order</h2><p>Enter the reference number and private tracking code from your confirmation.</p></div></div><div class="panel"><form id="trackForm" class="form-grid"><div class="field"><label for="trackRef">Order reference number</label><input id="trackRef" required placeholder="e.g. NCE-2026-ABC123"></div><div class="field"><label for="trackCode">Private tracking code</label><input id="trackCode" required placeholder="Your private tracking code"></div><div class="field full"><button class="btn btn-primary" type="submit" id="trackBtn">Find My Order</button></div></form><div id="trackError" class="notice error hidden"></div><div id="trackResult" class="track-result hidden"></div></div></div></section>
+<section id="page-admin" class="admin-shell hidden"><div class="container"><div id="adminLogin" class="login-wrap"><div class="panel"><div class="brand" style="margin-bottom:20px"><span class="brandmark">NCE</span><span>NCE PRINTING</span></div><h2>Administrator sign in</h2><p style="color:var(--muted);margin-top:4px">Authorized shop personnel only.</p><div id="adminConfig" class="config-banner hidden"></div><form id="loginForm"><div class="field" style="margin:17px 0"><label for="adminUsername">Username</label><input id="adminUsername" required autocomplete="username" placeholder="Administrator username"></div><div class="field" style="margin:17px 0"><label for="adminPassword">Password</label><input id="adminPassword" type="password" required autocomplete="current-password" placeholder="Enter password"></div><div id="loginError" class="notice error hidden"></div><button class="btn btn-primary" style="width:100%" type="submit" id="loginBtn">Secure Login</button></form><p class="hint" style="margin-top:15px">Customer orders and documents are accessible only to authenticated shop administrators.</p></div></div>
+<div id="adminDashboard" class="hidden"><div class="admin-head"><div><div class="eyebrow" style="color:var(--blue)">Management portal</div><h1>Business dashboard</h1><div class="hint" id="adminWelcome">NCE PRINTING</div></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-outline btn-small" onclick="exportCSV()">Export CSV</button><button class="btn btn-outline btn-small" onclick="showAdminTab('settings')">Business settings</button><button class="btn btn-danger btn-small" onclick="adminLogout()">Log out</button></div></div>
+<div class="stats"><div class="stat"><small>Total orders</small><strong id="statTotal">0</strong></div><div class="stat"><small>Pending / review</small><strong id="statPending">0</strong></div><div class="stat"><small>Processing</small><strong id="statProcessing">0</strong></div><div class="stat"><small>Ready for pickup</small><strong id="statReady">0</strong></div><div class="stat"><small>Completed</small><strong id="statCompleted">0</strong></div><div class="stat"><small>Cancelled</small><strong id="statCancelled">0</strong></div><div class="stat"><small>Total sales (paid)</small><strong id="statSales">₱0.00</strong></div></div>
+<div class="admin-tabs"><button class="active" data-tab="orders" onclick="showAdminTab('orders')">Orders</button><button data-tab="settings" onclick="showAdminTab('settings')">Settings</button></div>
+<div id="adminOrders" class="panel"><div class="admin-head"><div><h2 style="margin:0;color:var(--navy)">Order management</h2><span class="hint">Review customer requests and update their progress.</span></div><button class="btn btn-outline btn-small" onclick="loadOrders()">↻ Refresh</button></div><div style="display:flex;gap:10px;flex-wrap:wrap;margin:14px 0"><input id="orderSearch" class="search-input" style="max-width:310px" placeholder="Search name, reference, mobile..." oninput="renderOrders()"><select id="statusFilter" class="search-input" style="max-width:220px" onchange="renderOrders()"><option value="">All statuses</option><option>Order received</option><option>Under review</option><option>Waiting for payment</option><option>Processing</option><option>Ready for pickup</option><option>Completed</option><option>Cancelled</option></select></div><div id="ordersTable" class="table-wrap"><div class="empty">Sign in and refresh to load orders.</div></div></div>
+<div id="adminSettings" class="panel hidden"><h2 style="margin-top:0;color:var(--navy)">Business settings</h2><p class="hint">Business profile and service details. These settings are saved in this connected backend.</p><form id="settingsForm" class="form-grid"><div class="field"><label>Business name</label><input id="setBusiness" value="NCE PRINTING" maxlength="100"></div><div class="field"><label>Contact number</label><input id="setPhone" maxlength="40"></div><div class="field"><label>Business email</label><input id="setEmail" type="email" maxlength="180"></div><div class="field"><label>Shop address</label><input id="setAddress" maxlength="250"></div><div class="field full"><label>Operating hours</label><input id="setHours" maxlength="250" placeholder="e.g. Monday–Saturday, 8:00 AM–6:00 PM"></div><div class="field full"><label>Available printing services (one per line)</label><textarea id="setServices"></textarea></div><div class="field full"><label>Price list / quotation notes</label><textarea id="setPrices" placeholder="Enter your current rates and pricing notes..."></textarea></div><div class="field full"><button class="btn btn-primary" type="submit">Save Business Settings</button></div></form><div class="notice">Administrator password changes are handled securely through the authentication provider's account settings; passwords are never stored in this website's database.</div></div></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><div class="brand" style="color:white"><span class="brandmark">NCE</span><span style="color:white">NCE PRINTING</span></div><p>Professional printing services with convenient online ordering.</p></div><div><b>Quick links</b><div class="footer-links"><button onclick="showPage('order')">Place an order</button><button onclick="showPage('track')">Track order</button><button onclick="showPage('admin')">Administrator</button></div></div><div><b>Customer support</b><p id="footerContact">Contact details will be posted here.</p></div></div><div class="container" style="border-top:1px solid #ffffff20;margin-top:25px;padding-top:16px;color:#91a6ca;font-size:12px">© <span id="year"></span> NCE PRINTING. All rights reserved.</div></footer>
+<div id="modalRoot"></div><div id="toast" class="toast hidden" role="status"></div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+/*
+NCE PRINTING — deployment configuration
+1) Create a Supabase project at https://supabase.com.
+2) Paste the Project URL and anon/public key below. Never put the service_role key here.
+3) Run the SQL setup script supplied in the deployment instructions.
+4) Create the administrator in Supabase Authentication. Set app_metadata.role = "admin"
+   using a trusted server/admin console. Do not set this from the public client.
+5) Set ADMIN_LOGIN_EMAIL to the email address of that Auth account. The administrator
+   types the agreed username; the app maps it to this email. No password is embedded here.
+*/
+const SUPABASE_URL = "https://fiqxgjlvjxeyjniulqlu.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_BT8TxiTJaee4PnXxM7D3Tg_8HrS8JHO";
+const ADMIN_LOGIN_EMAIL = "nhijelestrella8@gmail.com";
+const ADMIN_USERNAME = "NCEprinting";
+const MAX_FILE_BYTES = 20 * 1024 * 1024;
+let db = null, currentUser = null, orders = [], pickedFiles = [], settings = {};
+const STATUSES = ["Order received","Under review","Waiting for payment","Processing","Ready for pickup","Completed","Cancelled"];
+const $ = id => document.getElementById(id);
+const configured = () => window.supabase && SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("YOUR_") && SUPABASE_ANON_KEY.length > 30 && !SUPABASE_ANON_KEY.includes("YOUR_");
+if(configured()) db = window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
+$("year").textContent = new Date().getFullYear();
+$("pickupDate").min = new Date().toISOString().slice(0,10);
+function toast(msg){$("toast").textContent=msg;$("toast").classList.remove("hidden");setTimeout(()=>$("toast").classList.add("hidden"),3600)}
+function showPage(page){["home","order","track","admin"].forEach(p=>$("page-"+p).classList.toggle("hidden",p!==page));$("navlinks").classList.remove("open");window.scrollTo({top:0,behavior:"smooth"});if(page==="order"&&!db){$("customerConfig").textContent="Online ordering is not connected yet. The site administrator must complete the secure backend setup before customer orders can be submitted.";$("customerConfig").classList.remove("hidden")}if(page==="admin"){if(currentUser)openDashboard();else{$("adminLogin").classList.remove("hidden");$("adminDashboard").classList.add("hidden");if(!db){$("adminConfig").textContent="Backend connection is not configured. Complete the Supabase setup in the deployment instructions before signing in.";$("adminConfig").classList.remove("hidden")}}}}
+$("menuBtn").onclick=()=>$("navlinks").classList.toggle("open");
+const fileInput=$("files");
+fileInput.addEventListener("change",()=>{for(const f of fileInput.files){if(f.size>MAX_FILE_BYTES){toast(f.name+" is larger than 20 MB and was not added.");continue}if(pickedFiles.some(x=>x.name===f.name&&x.size===f.size)){continue}pickedFiles.push(f)}fileInput.value="";renderFiles();updateSummary()});
+function renderFiles(){$("fileList").innerHTML="";pickedFiles.forEach((f,i)=>{const row=document.createElement("div");row.className="file-item";const info=document.createElement("div");info.className="file-info";if(f.type.startsWith("image/")){const img=document.createElement("img");img.className="thumb";img.alt="Image preview";img.src=URL.createObjectURL(f);info.append(img)}else{const icon=document.createElement("span");icon.textContent="📄";info.append(icon)}const label=document.createElement("span");label.textContent=f.name+" · "+(f.size/1024).toFixed(0)+" KB";info.append(label);const remove=document.createElement("button");remove.className="btn btn-danger btn-small";remove.type="button";remove.textContent="Remove";remove.onclick=()=>{pickedFiles.splice(i,1);renderFiles();updateSummary()};row.append(info,remove);$("fileList").append(row)})}
+function updateSummary(){$("sumName").textContent=$("fullName").value||"Not entered";$("sumService").textContent=$("service").value||"Not selected";$("sumFiles").textContent=pickedFiles.length+" file(s)";$("sumSpecs").textContent=$("paperSize").value+" · "+$("printMode").value+" · "+$("sides").value+" · "+$("paperType").value;$("sumCopies").textContent=$("copies").value||"1"}
+["fullName","service","paperSize","printMode","sides","paperType","copies"].forEach(id=>$(id).addEventListener("input",updateSummary));
+$("orderForm").addEventListener("reset",()=>{setTimeout(()=>{pickedFiles=[];renderFiles();updateSummary()},0)});
+function randomToken(n=24){const a=new Uint8Array(n);crypto.getRandomValues(a);return [...a].map(x=>x.toString(16).padStart(2,"0")).join("")}
+async function sha256(s){const bytes=new TextEncoder().encode(s);const hash=await crypto.subtle.digest("SHA-256",bytes);return [...new Uint8Array(hash)].map(x=>x.toString(16).padStart(2,"0")).join("")}
+function clean(v){return String(v||"").trim()}
+$("orderForm").addEventListener("submit",async e=>{e.preventDefault();const err=$("orderError");err.classList.add("hidden");if(!db){err.textContent="Online ordering is currently unavailable because the secure backend has not been configured. Please contact the shop administrator.";err.classList.remove("hidden");return}if(!pickedFiles.length){err.textContent="Please upload at least one file for your printing order.";err.classList.remove("hidden");return}if(pickedFiles.some(f=>f.size>MAX_FILE_BYTES)){err.textContent="One or more files exceed the 20 MB limit.";err.classList.remove("hidden");return}const btn=$("submitOrder");btn.disabled=true;btn.textContent="Submitting securely…";try{const ref="NCE-"+new Date().getFullYear()+"-"+randomToken(4).slice(0,8).toUpperCase();const code=randomToken(8).toUpperCase();const codeHash=await sha256(code);const orderId=crypto.randomUUID();const payload={id:orderId,reference:ref,tracking_code_hash:codeHash,customer_name:clean($("fullName").value),mobile:clean($("mobile").value),email:clean($("email").value)||null,service:clean($("service").value),paper_size:$("paperSize").value,print_mode:$("printMode").value,sides:$("sides").value,paper_type:$("paperType").value,copies:Number($("copies").value),custom_dimensions:clean($("customDimensions").value),finishing:$("finishing").value,pickup_date:$("pickupDate").value,pickup_time:$("pickupTime").value||null,notes:clean($("notes").value),status:"Order received",payment_status:"Unpaid",quoted_price:null,final_price:null,shop_update:null,created_at:new Date().toISOString()};const {error}=await db.from("orders").insert(payload);if(error)throw error;for(const f of pickedFiles){const safe=f.name.replace(/[^a-zA-Z0-9._-]/g,"_");const path=orderId+"/"+crypto.randomUUID()+"-"+safe;const up=await db.storage.from("order-files").upload(path,f,{contentType:f.type||"application/octet-stream",upsert:false});if(up.error)throw up.error;const meta=await db.from("order_files").insert({order_id:orderId,storage_path:path,file_name:f.name,mime_type:f.type||"application/octet-stream",file_size:f.size});if(meta.error)throw meta.error}showConfirmation(ref,code,payload);$("orderForm").reset();pickedFiles=[];renderFiles();updateSummary()}catch(ex){err.textContent="We couldn't submit your order. Please check your connection and try again. "+(ex.message||"");err.classList.remove("hidden")}finally{btn.disabled=false;btn.textContent="Submit Order"}});
+function showConfirmation(ref,code,p){$("modalRoot").innerHTML=`<div class="modal-backdrop"><div class="modal" style="max-width:520px"><div style="text-align:center"><div style="font-size:42px">✓</div><h2 style="color:var(--navy)">Order received</h2><p>Your request has been submitted to NCE PRINTING.</p><div class="summary"><div class="summary-row"><span>Reference number</span><strong>${escapeHtml(ref)}</strong></div><div class="summary-row"><span>Private tracking code</span><strong>${escapeHtml(code)}</strong></div></div><div class="notice">Save both details. Your private tracking code is shown only once and is required to view your order updates.</div><button class="btn btn-primary" onclick="copyTracking('${ref}','${code}')">Copy tracking details</button> <button class="btn btn-outline" onclick="closeModal()">Close</button></div></div></div>`}
+function copyTracking(r,c){navigator.clipboard?.writeText("NCE PRINTING\\nReference: "+r+"\\nPrivate tracking code: "+c);toast("Tracking details copied where supported. Keep them private.");}
+function closeModal(){$("modalRoot").innerHTML=""}
+function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+$("trackForm").addEventListener("submit",async e=>{e.preventDefault();const err=$("trackError"),res=$("trackResult");err.classList.add("hidden");res.classList.add("hidden");if(!db){err.textContent="Order tracking is not connected yet. Please contact NCE PRINTING.";err.classList.remove("hidden");return}const btn=$("trackBtn");btn.disabled=true;btn.textContent="Checking…";try{const ref=clean($("trackRef").value),hash=await sha256(clean($("trackCode").value).toUpperCase());const {data,error}=await db.rpc("track_nce_order",{p_reference:ref,p_tracking_hash:hash});if(error)throw error;if(!data||!data.length)throw new Error("No matching order was found. Check your reference number and private tracking code.");renderTracking(data[0]);res.classList.remove("hidden")}catch(ex){err.textContent=ex.message.includes("No matching")?ex.message:"We couldn't retrieve this order. Please check the details and try again.";err.classList.remove("hidden")}finally{btn.disabled=false;btn.textContent="Find My Order"}});
+function renderTracking(o){const status=o.status||"Order received",idx=STATUSES.indexOf(status);$("trackResult").innerHTML=`<div class="summary"><div class="admin-head"><div><h3 style="margin:0;color:var(--navy)">${escapeHtml(o.reference)}</h3><span class="hint">Order details</span></div><span class="status ${status.toLowerCase().replaceAll(" ","-")}">${escapeHtml(status)}</span></div><div class="detail-grid"><div class="detail-block"><small>Service</small><b>${escapeHtml(o.service)}</b></div><div class="detail-block"><small>Customer</small><b>${escapeHtml(o.customer_name)}</b></div><div class="detail-block"><small>Estimated / quoted price</small><b>${o.quoted_price==null?"For quotation":"₱"+Number(o.quoted_price).toFixed(2)}</b></div><div class="detail-block"><small>Payment</small><b>${escapeHtml(o.payment_status||"Unpaid")}</b></div></div><h3 style="color:var(--navy);margin:22px 0 10px">Order progress</h3><div class="timeline">${STATUSES.map((s,i)=>`<div class="timeline-step ${i<idx?"done":i===idx?"current":""}"><span class="dot"></span><div><b>${escapeHtml(s)}</b>${i===idx?`<small>Current status</small>`:""}</div></div>`).join("")}</div><div class="notice success"><b>Shop update:</b> ${escapeHtml(o.shop_update||"No additional update has been posted yet.")}</div></div>`}
+$("loginForm").addEventListener("submit",async e=>{e.preventDefault();const err=$("loginError");err.classList.add("hidden");if(!db){err.textContent="Secure backend is not configured.";err.classList.remove("hidden");return}const username=clean($("adminUsername").value);if(!ADMIN_USERNAME.startsWith("SET_")&&username!==ADMIN_USERNAME){err.textContent="Invalid username or password.";err.classList.remove("hidden");return}if(ADMIN_LOGIN_EMAIL.startsWith("SET_")){err.textContent="Administrator account mapping has not been configured.";err.classList.remove("hidden");return}const btn=$("loginBtn");btn.disabled=true;btn.textContent="Verifying…";try{const {data,error}=await db.auth.signInWithPassword({email:ADMIN_LOGIN_EMAIL,password:$("adminPassword").value});if(error)throw error;currentUser=data.user;const role=data.user.app_metadata?.role;if(role!=="admin"){await db.auth.signOut();currentUser=null;throw new Error("This account does not have administrator access.")}openDashboard()}catch(ex){err.textContent=ex.message==="Invalid login credentials"?"Invalid username or password.":ex.message;err.classList.remove("hidden")}finally{btn.disabled=false;btn.textContent="Secure Login"}});
+async function adminLogout(){if(db)await db.auth.signOut();currentUser=null;$("adminDashboard").classList.add("hidden");$("adminLogin").classList.remove("hidden");$("adminPassword").value="";toast("You have been signed out.");}
+async function openDashboard(){$("adminLogin").classList.add("hidden");$("adminDashboard").classList.remove("hidden");$("adminWelcome").textContent="Signed in · NCE PRINTING";await Promise.all([loadOrders(),loadSettings()])}
+async function loadOrders(){if(!db||!currentUser)return;const t=$("ordersTable");t.innerHTML='<div class="empty">Loading orders…</div>';const {data,error}=await db.from("orders").select("*,order_files(*)").eq("archived",false).order("created_at",{ascending:false});if(error){t.innerHTML='<div class="empty">Unable to load orders. Check database policies and connection.</div>';toast(error.message);return}orders=data||[];updateStats();renderOrders()}
+function updateStats(){const count=s=>orders.filter(o=>o.status===s).length;$("statTotal").textContent=orders.length;$("statPending").textContent=count("Order received")+count("Under review")+count("Waiting for payment");$("statProcessing").textContent=count("Processing");$("statReady").textContent=count("Ready for pickup");$("statCompleted").textContent=count("Completed");$("statCancelled").textContent=count("Cancelled");$("statSales").textContent="₱"+orders.reduce((a,o)=>a+(o.payment_status==="Paid"?Number(o.final_price||o.quoted_price||0):o.payment_status==="Partially paid"?Number(o.amount_paid||0):0),0).toLocaleString("en-PH",{minimumFractionDigits:2,maximumFractionDigits:2})}
+function renderOrders(){const q=clean($("orderSearch").value).toLowerCase(),f=$("statusFilter").value;const list=orders.filter(o=>(!f||o.status===f)&&[o.reference,o.customer_name,o.mobile,o.service].some(v=>String(v||"").toLowerCase().includes(q)));if(!list.length){$("ordersTable").innerHTML='<div class="empty"><div style="font-size:32px">▤</div><b>No orders found</b><p>New customer orders will appear here.</p></div>';return}$("ordersTable").innerHTML=`<table class="orders-table"><thead><tr><th>Reference</th><th>Customer</th><th>Service</th><th>Date received</th><th>Status</th><th>Payment</th><th></th></tr></thead><tbody>${list.map(o=>`<tr><td><b>${escapeHtml(o.reference)}</b></td><td>${escapeHtml(o.customer_name)}<br><span class="hint">${escapeHtml(o.mobile)}</span></td><td>${escapeHtml(o.service)}</td><td>${new Date(o.created_at).toLocaleDateString()}</td><td><span class="status ${o.status.toLowerCase().replaceAll(" ","-")}">${escapeHtml(o.status)}</span></td><td>${escapeHtml(o.payment_status||"Unpaid")}</td><td><button class="btn btn-outline btn-small" onclick="openOrder('${o.id}')">Open</button></td></tr>`).join("")}</tbody></table>`}
+function showAdminTab(tab){$("adminOrders").classList.toggle("hidden",tab!=="orders");$("adminSettings").classList.toggle("hidden",tab!=="settings");document.querySelectorAll(".admin-tabs button").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab))}
+async function openOrder(id){const o=orders.find(x=>x.id===id);if(!o)return;const files=o.order_files||[];$("modalRoot").innerHTML=`<div class="modal-backdrop"><div class="modal"><div class="modal-head"><h2>Order ${escapeHtml(o.reference)}</h2><button class="close" onclick="closeModal()">✕</button></div><div class="detail-grid" style="margin:18px 0"><div class="detail-block"><small>Customer</small><b>${escapeHtml(o.customer_name)}</b></div><div class="detail-block"><small>Mobile / Email</small><b>${escapeHtml(o.mobile)}<br>${escapeHtml(o.email||"No email")}</b></div><div class="detail-block"><small>Service</small><b>${escapeHtml(o.service)}</b></div><div class="detail-block"><small>Pickup</small><b>${escapeHtml(o.pickup_date||"Not specified")} ${escapeHtml(o.pickup_time||"")}</b></div><div class="detail-block"><small>Printing specifications</small><b>${escapeHtml([o.paper_size,o.print_mode,o.sides,o.paper_type,"Copies: "+o.copies,o.custom_dimensions].filter(Boolean).join(" · "))}</b></div><div class="detail-block"><small>Finishing</small><b>${escapeHtml(o.finishing||"None")}</b></div></div><p><b>Customer instructions</b><br>${escapeHtml(o.notes||"No special instructions")}</p><h3 style="color:var(--navy)">Uploaded files (${files.length})</h3><div id="adminFileList">${files.map(f=>`<div class="file-item"><span>📄 ${escapeHtml(f.file_name)} <span class="hint">(${(f.file_size/1024).toFixed(0)} KB)</span></span><button class="btn btn-outline btn-small" onclick="downloadFile('${f.storage_path}','${escapeHtml(f.file_name)}')">Download</button></div>`).join("")||"No files attached."}</div>${files.length ? `<button class="btn btn-outline btn-small" style="margin-top:10px" onclick="downloadAllFiles('${id}')">Download all files</button>` : ""}<hr style="border:0;border-top:1px solid var(--line);margin:20px 0"><form id="updateOrderForm" class="form-grid"><div class="field"><label>Status</label><select id="editStatus">${STATUSES.map(s=>`<option ${o.status===s?"selected":""}>${s}</option>`).join("")}</select></div><div class="field"><label>Payment status</label><select id="editPayment">${["Unpaid","Partially paid","Paid"].map(s=>`<option ${o.payment_status===s?"selected":""}>${s}</option>`).join("")}</select></div><div class="field"><label>Quotation (₱)</label><input id="editQuote" type="number" min="0" step=".01" value="${o.quoted_price??""}"></div><div class="field"><label>Final price (₱)</label><input id="editFinal" type="number" min="0" step=".01" value="${o.final_price??""}"></div><div class="field"><label>Amount paid (₱)</label><input id="editPaid" type="number" min="0" step=".01" value="${o.amount_paid??""}"></div><div class="field full"><label>Customer-facing update</label><textarea id="editUpdate" maxlength="1000">${escapeHtml(o.shop_update||"")}</textarea></div><div class="field full"><label>Private shop notes (not shown to customer)</label><textarea id="editPrivate" maxlength="2000">${escapeHtml(o.private_notes||"")}</textarea></div><div class="field full" style="display:flex;flex-direction:row;flex-wrap:wrap"><button class="btn btn-primary" type="submit">Save Order Updates</button><button class="btn btn-outline" type="button" onclick="printReceipt('${id}')">Print Receipt</button><button class="btn btn-danger" type="button" onclick="archiveOrder('${id}')">Archive order</button></div></form></div></div>`;$("updateOrderForm").onsubmit=async e=>{e.preventDefault();const btn=e.submitter;btn.disabled=true;try{const upd={status:$("editStatus").value,payment_status:$("editPayment").value,quoted_price:$("editQuote").value===""?null:Number($("editQuote").value),final_price:$("editFinal").value===""?null:Number($("editFinal").value),amount_paid:$("editPaid").value===""?null:Number($("editPaid").value),shop_update:clean($("editUpdate").value)||null,private_notes:clean($("editPrivate").value)||null};const {error}=await db.from("orders").update(upd).eq("id",id);if(error)throw error;toast("Order updated successfully.");closeModal();await loadOrders()}catch(ex){toast("Could not update order: "+ex.message)}finally{btn.disabled=false}}}
+async function downloadFile(path,name){const {data,error}=await db.storage.from("order-files").createSignedUrl(path,90);if(error){toast("Download unavailable: "+error.message);return}const a=document.createElement("a");a.href=data.signedUrl;a.download=name;a.target="_blank";a.click()}
+async function downloadAllFiles(id){const o=orders.find(x=>x.id===id);for(const f of (o?.order_files||[])){await downloadFile(f.storage_path,f.file_name)}}
+function printReceipt(id){const o=orders.find(x=>x.id===id);if(!o)return;const w=window.open("","_blank");if(!w){toast("Please allow pop-ups to print the receipt.");return}w.document.write(`<html><head><title>Receipt ${escapeHtml(o.reference)}</title><style>body{font:14px Arial;padding:35px;color:#17243a}h1{color:#102b59}table{width:100%;border-collapse:collapse}td{padding:9px;border-bottom:1px solid #ddd}.right{text-align:right}</style></head><body><h1>NCE PRINTING</h1><p>ORDER RECEIPT / SUMMARY</p><h2>${escapeHtml(o.reference)}</h2><p>Customer: ${escapeHtml(o.customer_name)}<br>Mobile: ${escapeHtml(o.mobile)}<br>Date: ${new Date(o.created_at).toLocaleString()}</p><table><tr><td>Service</td><td class="right">${escapeHtml(o.service)}</td></tr><tr><td>Specifications</td><td class="right">${escapeHtml([o.paper_size,o.print_mode,o.sides,o.paper_type,"Copies: "+o.copies].join(" · "))}</td></tr><tr><td>Status</td><td class="right">${escapeHtml(o.status)}</td></tr><tr><td>Payment</td><td class="right">${escapeHtml(o.payment_status)}</td></tr><tr><td>Final / quoted price</td><td class="right">₱${Number(o.final_price??o.quoted_price??0).toFixed(2)}</td></tr></table><p>Thank you for choosing NCE PRINTING.</p><script>window.onload=()=>window.print()<\/script>
+<!--
+===================== SUPABASE DATABASE SETUP SQL =====================
+Run this entire script in Supabase Dashboard > SQL Editor > New query.
+
+create extension if not exists pgcrypto;
+
+create table if not exists public.orders (
+  id uuid primary key default gen_random_uuid(),
+  reference text not null unique,
+  tracking_code_hash text not null,
+  customer_name text not null,
+  mobile text not null,
+  email text,
+  service text not null,
+  paper_size text not null,
+  print_mode text not null,
+  sides text not null,
+  paper_type text not null,
+  copies integer not null default 1 check (copies between 1 and 10000),
+  custom_dimensions text,
+  finishing text,
+  pickup_date date,
+  pickup_time time,
+  notes text,
+  status text not null default 'Order received',
+  payment_status text not null default 'Unpaid',
+  quoted_price numeric(12,2),
+  final_price numeric(12,2),
+  amount_paid numeric(12,2),
+  shop_update text,
+  private_notes text,
+  archived boolean not null default false,
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.order_files (
+  id uuid primary key default gen_random_uuid(),
+  order_id uuid not null references public.orders(id) on delete cascade,
+  storage_path text not null unique,
+  file_name text not null,
+  mime_type text,
+  file_size bigint not null
+);
+
+create table if not exists public.business_settings (
+  id integer primary key check (id = 1),
+  business_name text not null default 'NCE PRINTING',
+  contact_number text,
+  email text,
+  address text,
+  operating_hours text,
+  services text[] not null default '{}',
+  price_list text
+);
+
+alter table public.orders enable row level security;
+alter table public.order_files enable row level security;
+alter table public.business_settings enable row level security;
+
+-- Customers may submit new orders; only administrators may read or change orders.
+drop policy if exists "public can submit orders" on public.orders;
+create policy "public can submit orders" on public.orders
+  for insert to anon, authenticated with check (
+    status = 'Order received' and payment_status = 'Unpaid'
+    and archived = false and quoted_price is null and final_price is null
+    and private_notes is null and shop_update is null
+  );
+drop policy if exists "admins manage orders" on public.orders;
+create policy "admins manage orders" on public.orders
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+drop policy if exists "public can add file metadata" on public.order_files;
+create policy "public can add file metadata" on public.order_files
+  for insert to anon, authenticated with check (
+    storage_path like order_id::text || '/%'
+  );
+drop policy if exists "admins manage file metadata" on public.order_files;
+create policy "admins manage file metadata" on public.order_files
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+drop policy if exists "admins manage business settings" on public.business_settings;
+create policy "admins manage business settings" on public.business_settings
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+-- Private file bucket. Create it once; uploaded files are never publicly readable.
+insert into storage.buckets (id, name, public, file_size_limit)
+values ('order-files', 'order-files', false, 20971520)
+on conflict (id) do update set public = false, file_size_limit = 20971520;
+
+drop policy if exists "public upload to order-files" on storage.objects;
+create policy "public upload to order-files" on storage.objects
+  for insert to anon, authenticated
+  with check (bucket_id = 'order-files');
+drop policy if exists "admins read order-files" on storage.objects;
+create policy "admins read order-files" on storage.objects
+  for select to authenticated
+  using (bucket_id = 'order-files'
+    and (auth.jwt()->'app_metadata'->>'role') = 'admin');
+drop policy if exists "admins delete order-files" on storage.objects;
+create policy "admins delete order-files" on storage.objects
+  for delete to authenticated
+  using (bucket_id = 'order-files'
+    and (auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+-- Tracking returns only customer-safe fields after matching the private code hash.
+create or replace function public.track_nce_order(p_reference text, p_tracking_hash text)
+returns table (
+  reference text, customer_name text, service text, status text,
+  payment_status text, quoted_price numeric, shop_update text
+)
+language sql security definer set search_path = public, pg_temp
+as $$
+  select o.reference, o.customer_name, o.service, o.status,
+         o.payment_status, o.quoted_price, o.shop_update
+  from public.orders o
+  where o.reference = p_reference
+    and o.tracking_code_hash = p_tracking_hash
+    and o.archived = false
+  limit 1;
+$$;
+revoke all on function public.track_nce_order(text,text) from public;
+grant execute on function public.track_nce_order(text,text) to anon, authenticated;
+
+grant usage on schema public to anon, authenticated;
+grant insert on public.orders to anon, authenticated;
+grant insert on public.order_files to anon, authenticated;
+grant select, update, delete on public.orders to authenticated;
+grant select, insert, update, delete on public.order_files to authenticated;
+grant select, insert, update on public.business_settings to authenticated;
+
+-- After creating the administrator Auth user, set its app_metadata role to "admin"
+-- from a trusted Supabase Admin environment. Never expose the service-role key in HTML.
+-- Also set the admin email, username mapping and Supabase URL/public anon key in the
+-- JavaScript configuration constants near the bottom of this file.
+=================== END SUPABASE DATABASE SETUP SQL ===================
+-->
+
+</body></html>`);w.document.close()}
+async function archiveOrder(id){if(!confirm("Archive this order? It will be removed from the active order list."))return;const {error}=await db.from("orders").update({archived:true}).eq("id",id);if(error){toast(error.message);return}closeModal();await loadOrders();toast("Order archived.")}
+function exportCSV(){const rows=orders.map(o=>[o.reference,o.customer_name,o.mobile,o.email,o.service,o.status,o.payment_status,o.quoted_price,o.final_price,o.created_at]);const head=["Reference","Customer","Mobile","Email","Service","Status","Payment","Quote","Final price","Created"];const csv=[head,...rows].map(r=>r.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(",")).join("\r\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));a.download="nce-printing-orders.csv";a.click();URL.revokeObjectURL(a.href)}
+async function loadSettings(){if(!db)return;const {data,error}=await db.from("business_settings").select("*").eq("id",1).maybeSingle();if(error)return;if(data){settings=data;$("setBusiness").value=data.business_name||"NCE PRINTING";$("setPhone").value=data.contact_number||"";$("setEmail").value=data.email||"";$("setAddress").value=data.address||"";$("setHours").value=data.operating_hours||"";$("setServices").value=(data.services||[]).join("\n");$("setPrices").value=data.price_list||"";$("topContact").textContent=(data.contact_number||"NCE PRINTING · Customer Service");$("footerContact").textContent=[data.contact_number,data.email,data.address,data.operating_hours].filter(Boolean).join(" · ")||"Contact details will be posted here."}}
+$("settingsForm").addEventListener("submit",async e=>{e.preventDefault();const row={id:1,business_name:clean($("setBusiness").value)||"NCE PRINTING",contact_number:clean($("setPhone").value),email:clean($("setEmail").value),address:clean($("setAddress").value),operating_hours:clean($("setHours").value),services:$("setServices").value.split("\n").map(clean).filter(Boolean),price_list:$("setPrices").value};const {error}=await db.from("business_settings").upsert(row);if(error){toast("Settings not saved: "+error.message);return}toast("Business settings saved.");await loadSettings()});
+if(db){db.auth.getSession().then(({data})=>{if(data.session){currentUser=data.session.user;if(currentUser.app_metadata?.role==="admin"&&$("page-admin")){}}});}
+</script>
+
+<!--
+===================== SUPABASE DATABASE SETUP SQL =====================
+Run this entire script in Supabase Dashboard > SQL Editor > New query.
+
+create extension if not exists pgcrypto;
+
+create table if not exists public.orders (
+  id uuid primary key default gen_random_uuid(),
+  reference text not null unique,
+  tracking_code_hash text not null,
+  customer_name text not null,
+  mobile text not null,
+  email text,
+  service text not null,
+  paper_size text not null,
+  print_mode text not null,
+  sides text not null,
+  paper_type text not null,
+  copies integer not null default 1 check (copies between 1 and 10000),
+  custom_dimensions text,
+  finishing text,
+  pickup_date date,
+  pickup_time time,
+  notes text,
+  status text not null default 'Order received',
+  payment_status text not null default 'Unpaid',
+  quoted_price numeric(12,2),
+  final_price numeric(12,2),
+  amount_paid numeric(12,2),
+  shop_update text,
+  private_notes text,
+  archived boolean not null default false,
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.order_files (
+  id uuid primary key default gen_random_uuid(),
+  order_id uuid not null references public.orders(id) on delete cascade,
+  storage_path text not null unique,
+  file_name text not null,
+  mime_type text,
+  file_size bigint not null
+);
+
+create table if not exists public.business_settings (
+  id integer primary key check (id = 1),
+  business_name text not null default 'NCE PRINTING',
+  contact_number text,
+  email text,
+  address text,
+  operating_hours text,
+  services text[] not null default '{}',
+  price_list text
+);
+
+alter table public.orders enable row level security;
+alter table public.order_files enable row level security;
+alter table public.business_settings enable row level security;
+
+-- Customers may submit new orders; only administrators may read or change orders.
+drop policy if exists "public can submit orders" on public.orders;
+create policy "public can submit orders" on public.orders
+  for insert to anon, authenticated with check (
+    status = 'Order received' and payment_status = 'Unpaid'
+    and archived = false and quoted_price is null and final_price is null
+    and private_notes is null and shop_update is null
+  );
+drop policy if exists "admins manage orders" on public.orders;
+create policy "admins manage orders" on public.orders
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+drop policy if exists "public can add file metadata" on public.order_files;
+create policy "public can add file metadata" on public.order_files
+  for insert to anon, authenticated with check (
+    storage_path like order_id::text || '/%'
+  );
+drop policy if exists "admins manage file metadata" on public.order_files;
+create policy "admins manage file metadata" on public.order_files
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+drop policy if exists "admins manage business settings" on public.business_settings;
+create policy "admins manage business settings" on public.business_settings
+  for all to authenticated
+  using ((auth.jwt()->'app_metadata'->>'role') = 'admin')
+  with check ((auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+-- Private file bucket. Create it once; uploaded files are never publicly readable.
+insert into storage.buckets (id, name, public, file_size_limit)
+values ('order-files', 'order-files', false, 20971520)
+on conflict (id) do update set public = false, file_size_limit = 20971520;
+
+drop policy if exists "public upload to order-files" on storage.objects;
+create policy "public upload to order-files" on storage.objects
+  for insert to anon, authenticated
+  with check (bucket_id = 'order-files');
+drop policy if exists "admins read order-files" on storage.objects;
+create policy "admins read order-files" on storage.objects
+  for select to authenticated
+  using (bucket_id = 'order-files'
+    and (auth.jwt()->'app_metadata'->>'role') = 'admin');
+drop policy if exists "admins delete order-files" on storage.objects;
+create policy "admins delete order-files" on storage.objects
+  for delete to authenticated
+  using (bucket_id = 'order-files'
+    and (auth.jwt()->'app_metadata'->>'role') = 'admin');
+
+-- Tracking returns only customer-safe fields after matching the private code hash.
+create or replace function public.track_nce_order(p_reference text, p_tracking_hash text)
+returns table (
+  reference text, customer_name text, service text, status text,
+  payment_status text, quoted_price numeric, shop_update text
+)
+language sql security definer set search_path = public, pg_temp
+as $$
+  select o.reference, o.customer_name, o.service, o.status,
+         o.payment_status, o.quoted_price, o.shop_update
+  from public.orders o
+  where o.reference = p_reference
+    and o.tracking_code_hash = p_tracking_hash
+    and o.archived = false
+  limit 1;
+$$;
+revoke all on function public.track_nce_order(text,text) from public;
+grant execute on function public.track_nce_order(text,text) to anon, authenticated;
+
+grant usage on schema public to anon, authenticated;
+grant insert on public.orders to anon, authenticated;
+grant insert on public.order_files to anon, authenticated;
+grant select, update, delete on public.orders to authenticated;
+grant select, insert, update, delete on public.order_files to authenticated;
+grant select, insert, update on public.business_settings to authenticated;
+
+-- After creating the administrator Auth user, set its app_metadata role to "admin"
+-- from a trusted Supabase Admin environment. Never expose the service-role key in HTML.
+-- Also set the admin email, username mapping and Supabase URL/public anon key in the
+-- JavaScript configuration constants near the bottom of this file.
+=================== END SUPABASE DATABASE SETUP SQL ===================
+-->
+
+</body>
+</html>
